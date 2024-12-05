@@ -1,5 +1,4 @@
-import { SiExpress } from "react-icons/si";
-
+import { SiExpress, SiReact, SiMysql, SiKubernetes, SiDocker, SiGithubactions, SiJenkins, SiGrafana } from "react-icons/si";
 export const html = {
   title: "HTML",
   img: "https://cdn-icons-png.flaticon.com/512/1532/1532556.png",
@@ -23,7 +22,7 @@ export const javascript = {
 
 export const react = {
   title: "React.js",
-  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+  svg: SiReact,
   wid: "75%",
   swid: "40%",
 };
@@ -67,6 +66,39 @@ export const python = {
 export const mySQL = {
   title: "MySQL",
   img: "https://www.notion.so/image/https%3A%2F%2Fpngimg.com%2Fd%2Fmysql_PNG9.png?table=block&id=27e6b5e3-e888-4802-9c0b-2e5ca6bdf31a&spaceId=5247e3c7-a9ff-4596-9c82-e08b13f4ea9d&width=250&userId=af1a9bd4-c5ca-4c4b-88f4-f0e87ce2512a&cache=v2",
+  svg: SiMysql,
   wid: "70%",
   swid: "35%",
+};
+
+export const jenkins = {
+  title: "Jenkins",
+  svg: SiJenkins,
+  wid: "75%",
+  swid: "40%",
+};
+
+export const gitactions = {
+  title: "GithubActions",
+  svg: SiGithubactions,
+  wid: "75%",
+  swid: "40%",
+};
+export const docker = {
+  title: "Docker",
+  svg: SiDocker,
+  wid: "75%",
+  swid: "40%",
+};
+export const kubernetes = {
+  title: "Kubernetes",
+  svg: SiKubernetes,
+  wid: "75%",
+  swid: "40%",
+};
+export const grafana = {
+  title: "Grafana",
+  svg: SiGrafana,
+  wid: "75%",
+  swid: "40%",
 };

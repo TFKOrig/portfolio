@@ -47,11 +47,7 @@ export default function About() {
             letterSpacing="1px"
             color={theme.theme.dText}
           >
-            A Front-End Web Developer with a passion for Front-End development
-            and proficiency in HTML, CSS, JavaScript, React, Node.js, MongoDB ,
-            Express.js, is seeking opportunities to work in organizations that
-            can challenge their abilities as a web developer. They are eager to
-            undertake challenging projects and deliver exceptional results.
+            Aspiring DevOps Engineer with a strong foundation in MERN stack development. Actively learning and implementing DevOps principles to streamline workflows and improve software delivery. Seeking a challenging role to accelerate my growth and contribute to innovative projects.
           </Text>
         </Box>
       </Flex>

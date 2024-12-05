@@ -13,6 +13,11 @@ import {
   python,
   react,
   mySQL,
+  docker,
+  gitactions,
+  grafana,
+  jenkins,
+  kubernetes,
 } from "../db/techstack";
 
 export default function Skills() {
@@ -31,6 +36,11 @@ export default function Skills() {
     git,
     python,
     mySQL,
+    docker,
+    gitactions,
+    grafana,
+    jenkins,
+    kubernetes,
   ];
 
   return (
@@ -68,9 +78,7 @@ export default function Skills() {
                 className="skills-card"
               >
                 <Flex justifyContent="center">
-                  {(skill.title === "Express" || skill.title === "Next.js") &&
-                  (mainTheme?.theme.bg === "black" ||
-                    mainTheme?.theme.bg === "#08105B") ? (
+                  {(skill.title === "Express" || skill.title === "Next.js" || skill.title === "React.js" || skill.title === "MySQL" || skill.title === "Jenkins"|| skill.title === "GithubActions"|| skill.title === "Docker"|| skill.title === "Kubernetes"|| skill.title === "Grafana") ? (
                     skill?.svg({ size: "4rem", color: "#757575" })
                   ) : (
                     <img

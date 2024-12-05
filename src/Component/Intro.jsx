@@ -235,7 +235,7 @@ export default function Intro() {
                 >
                   <Typewriter
                     words={[
-                      "A Front-End Web Developer.",
+                      "A DevOps Engineer.",
                       "Coding is my rhythm, and music is my melody.",
                     ]}
                     loop={false}
